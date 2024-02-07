@@ -63,7 +63,7 @@ class TestBurger:
 
         assert burger.get_price() == 50.00
 
-    # проверка работы метода get_receipt
+    # проверка работы get_receipt
     def test_method_get_receipt(self):
         burger = Burger()
 
